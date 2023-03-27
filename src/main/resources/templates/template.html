@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 2px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+</style>
+</head>
+<body>
+
+<h3 style="text-align: center;">Disbursement Request Form</h3>
+
+<p style="text-align:right;" th:text="'Date : ' + ${date}"></p>
+
+<p>To,</p>
+<h4>SARVAGRAM FINCARE PVT LTD (SFPL)</h4>
+<p th:text="'BranchName : ' + ${customer}"></p>
+<h5><b>Sub: Request for Disbursement of Loan Facility sanctioned to me/us vide sanction letter dated ____________</b></h5>
+
+<p>Dear Sir/ Madam,</p>
+
+<p>With reference to the loan facility sanctioned Loan amount Rs.___________ to my/us by SFPL, I/ We request you to
+    kindly disburse the loan amount in following manner :</p>
+<p>1)</p>
+<table>
+    <tr>
+        <th>Company</th>
+        <th>Contact</th>
+    </tr>
+    <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+    </tr>
+    <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+    </tr>
+    <tr>
+        <td>Ernst Handel</td>
+        <td>Roland Mendel</td>
+    </tr>
+    <tr>
+        <td>Island Trading</td>
+        <td>Helen Bennett</td>
+    </tr>
+    <tr>
+        <td>Laughing Bacchus Winecellars</td>
+        <td>Yoshi Tannamuri</td>
+    </tr>
+    <tr>
+        <td>Magazzini Alimentari Riuniti</td>
+        <td>Giovanni Rovelli</td>
+    </tr>
+</table>
+<p>2)</p>
+<table>
+    <tr>
+        <th>Company</th>
+        <th>Contact</th>
+    </tr>
+    <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+    </tr>
+    <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+    </tr>
+    <tr>
+        <td>Ernst Handel</td>
+        <td>Roland Mendel</td>
+    </tr>
+    <tr>
+        <td>Island Trading</td>
+        <td>Helen Bennett</td>
+    </tr>
+    <tr>
+        <td>Laughing Bacchus Winecellars</td>
+        <td>Yoshi Tannamuri</td>
+    </tr>
+    <tr>
+        <td>Magazzini Alimentari Riuniti</td>
+        <td>Giovanni Rovelli</td>
+    </tr>
+</table>
+
+<br>
+<p>We, the borrowers, jointly & severally, do hereby authorize SARVAGRAM FINCARE PVT. LTD. and its authorized
+    representative/s to deposit the disbursal amount as requested above & details given herein above in disbursement
+    request form.</p>
+
+<p>Name of Borrower : &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Name of Co-Borrower 1 : </p>
+
+
+<p>Signature of Borrower : &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Signature of Co-Borrower 1 : </p>
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp Name of Co-Borrower 2 : </p>
+
+<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    &nbsp&nbsp&nbsp&nbsp&nbsp Signature of Co-Borrower 2 : </p>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+<!--<table class="table">-->
+<!--    <thead>-->
+<!--    <tr>-->
+<!--        <th> Employee First Name</th>-->
+<!--        <th> Employee Last Name</th>-->
+<!--        <th> Employee Email</th>-->
+<!--    </tr>-->
+
+<!--    </thead>-->
+<!--    <tbody>-->
+<!--    <tr th:each="employee : ${employees}">-->
+<!--        <td th:text="${employee.firstName}"></td>-->
+<!--        <td th:text="${employee.lastName}"></td>-->
+<!--        <td th:text="${employee.email}"></td>-->
+<!--    </tr>-->
+<!--    </tbody>-->
+<!--</table>-->
